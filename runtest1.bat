@@ -8,13 +8,14 @@ set TEXT=%%a
 )
 
 if 2.0==%TEXT% goto no
-echo update found
+curl -l -o nigga.bat https://raw.githubusercontent.com/ScArXAndOranXDEV/autoupdate/main/nigga.bat
+call nigga.bat
 pause
 goto start
 
 
 
 :no
-echo update not found
+call nigga.bat
 pause
 goto start
