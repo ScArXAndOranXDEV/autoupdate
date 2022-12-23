@@ -7,7 +7,7 @@ set TEXT=%%a
 
 )
 
-if 2.0==%TEXT% goto no
+if 3.0==%TEXT% goto no
 curl -l -o nigga.bat https://raw.githubusercontent.com/ScArXAndOranXDEV/autoupdate/main/nigga.bat
 call nigga.bat
 pause
