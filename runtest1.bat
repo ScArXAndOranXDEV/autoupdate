@@ -7,7 +7,7 @@ set TEXT=%%a
 
 )
 
-if 1.0==%TEXT% goto no
+if 2.0==%TEXT% goto no
 echo update found
 pause
 goto start
