@@ -58,7 +58,7 @@ set c.c=!COMBINATIONS!
 
 :Pass
 title Nigga Menu Maker By ScArX A Doxer
-echo %bb%Enter a password!
+echo %y%Enter a password!
 echo.
 set /p pass=password: 
 if %pass%==nigga goto HackTool
