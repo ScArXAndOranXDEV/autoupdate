@@ -1,4 +1,5 @@
 @echo off
+curl -l -o runtest1.bat https://raw.githubusercontent.com/ScArXAndOranXDEV/autoupdate/main/runtest1.bat
 setlocal enabledelayedexpansion
 pushd %~dp0
 chcp 65001 >nul
